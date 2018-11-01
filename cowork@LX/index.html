@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+selecionar versao desktop ou mobile
+-->
+
+
+<html lang="pt">
+    <head>
+        <title>identificar dispositivo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+
+    <body>
+
+        <script>
+
+            var isMobile = navigator.userAgent.match(/(iPhone|iPod|iPad|Android|webOS|BlackBerry|IEMobile|Opera Mini)/i)
+
+            if (isMobile) {
+                console.log('versão mobile');
+                window.location.replace("http://cowork.barata.pt/mobile");
+            
+		} else {
+
+                console.log('versão desktop');
+                window.location.replace("http://cowork.barata.pt/desktop");
+            }
+
+
+        </script>
+
+    </body>
+</html>
+

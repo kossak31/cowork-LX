@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+
+        <title>Cowork@LX - Mobile</title>
+
+
+        <link rel="prefetch stylesheet" type="text/css" href="assets/css/mobile.css">
+        <link rel="prefetch stylesheet" type="text/css" href="assets/css/animate.css">
+
+
+        <!-- faviocn -->
+        <link rel="prefetch apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+        <link rel="prefetch icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+        <link rel="prefetch icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+
+        <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="prefetch shortcut icon" href="/images/favicon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#b91d47">
+        <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+
+
+        <!-- Android -->
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="theme-color" content="#E60042">
+        <link rel="prefetch icon" type="image/png" href="images/favicon/favicon_192x192.png" sizes="192x192" />
+
+        <!-- Windows Phone -->
+        <meta name="msapplication-navbutton-color" content="#E60042">
+
+        <!-- Safari -->
+        <meta name="apple-mobile-web-app-title" content="cowork@LX"> 
+        <meta name=apple-mobile-web-app-capable content=yes>
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+
+        <meta name='keywords' content='cowork em lisboa, corworks de lisboa, espaços cowork'>
+        <meta name='description' content='repositorio com informações de espaços cowork na grande lisboa'>
+        <meta name='language' content='PT'>
+        <meta name='robots' content='index, follow'>
+
+
+        <link rel='manifest' href='/manifest.json'>
+
+        <style type = "text/css">
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                overflow-x: hidden;
+            }
+
+            body {
+                font-family: 'Roboto';
+                position: relative;
+            }
+
+            /* elemento GMAPs*/
+            #map {
+                height: 100%;
+
+            }
+
+            /*conceito de menu esquerdo */
+            .map-control {
+                background-color: #fff;
+                border: 1px solid #ccc;
+                box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+                font-size: 16px;
+                margin: 10px;
+                padding-right: 5px;
+                display: none; /* esconder antes de mostrar o mapa */
+            }
+
+            /* mostrar menu quando mapa carregar */
+            #map .map-control { 
+                display: block; 
+            }
+
+            .selector-control {
+                background-color:red;
+            }
+
+            #banner {
+                opacity: 0.5;
+                position: absolute;
+                z-index: 99;
+                bottom: 10px;
+                right: 5%;
+
+                color: #000000;
+                text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+
+                line-height: 0px;
+                padding-left: 0px;
+            }
+
+
+            #banner .logo {
+                height: 50px;
+                margin-left: 17px;
+                margin-bottom: -28px;
+            }
+            
+            
+            #myDropdown {
+                 width: 120px;
+            }
+
+            .dropdown {
+                position: relative;
+                display: inline-block;
+
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f1f1f1;
+                bottom: 90px;
+                left: -5px;
+
+                overflow: auto;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+
+            }
+
+            .dropdown-content a {
+                color: black;
+                font-size: 18px;
+                padding: 20px 5px;
+                text-decoration: none;
+                display: block;
+            }
+
+            .show {
+                display: block;
+            }
+
+
+            .row {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            #menu {
+                display: flex;
+                justify-content: center;
+            }
+
+
+            .column {
+                flex-direction: column;
+
+            }
+        </style>
+
+    </head>
+
+    <body>
+
+        <div id="banner"  >
+
+            <div class="row">
+                <a class="translate" id="pt" href="#PT"><img src="images/flag/pt.png"></a>
+                <a class="translate" id="en" href="#EN"><img src="images/flag/en.png"></a>
+                <a class="translate" id="fr" href="#FR"><img src="images/flag/fr.png"></a>
+            </div>
+
+            <div id="menu">
+                <div class="column">
+                    <img class="logo"  title="cowork@lx" src="images/legenda/spot_menu.gif" alt="cowork@lx" >
+
+                    <h4>cowork@LX</h4>
+                    <div class="dropdown">
+
+                        <div id="myDropdown" class="dropdown-content">
+
+                            <a id="info" class="lang" key="info" href="pages/faq.html" >Sobre nós</a>
+                            <a id="add" class="lang" key="adicionar" href="formulario/novo_cowork.php" >Adicionar</a>
+                            <a id="contacto" class="lang" key="contacto" href="formulario/contacto.php" >Contacto</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div id="map"></div>
+
+
+        <div id="display_item"></div>
+
+
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+        <script src="js/language_file.js"></script>
+      
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDGHW4r1GVNOqoguoK_xdGANta9GZo4uxU"> </script>
+
+        <script>
+
+            function activarMenu() {
+                $('#myDropdown').toggle();
+                $('#banner').fadeTo("slow", 1);
+            }
+
+            $('#banner').click(function (e) {
+                e.preventDefault();
+                activarMenu();
+            });
+
+
+            $('#info').click(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "GET",
+                    url: "pages/faq.php",
+                    data: {},
+                    success: function (data) {
+                        $('body').html(data);
+                    }
+                });
+            });
+
+
+            $('#add').click(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "GET",
+                    url: "formulario/novo_cowork.php",
+                    data: {},
+                    success: function (data) {
+                        $('body').html(data);
+                    }
+                });
+            });
+
+
+            $('#contacto').click(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "GET",
+                    url: "formulario/contacto.php",
+                    data: {},
+                    success: function (data) {
+                        $('body').html(data);
+                    }
+                });
+            });
+        </script>
+        
+        
+        <script src="js/gmaps_mobile.js"></script>
+        <script src="js/controlMenu.js"></script>
+        <script src="js/leitura.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css" >
+        <link rel="stylesheet" href="../css/animate.css" >
+
+        <title>perguntas frequentes</title>
+
+        <style>
+
+            .footer {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                height: 50px; /* Set the fixed height of the footer here */
+                padding-top: 10px;
+                background-color: yellowgreen;
+                color: white;
+                text-transform: uppercase;
+                text-align: center;
+                font-size: 28px;
+                cursor: pointer;
+            }
+
+            .translate {
+                padding: 20px;
+                cursor: pointer;
+
+            }
+        </style>
+    </head>
+
+
+    <body>
+
+        <h1 class="pt-2 text-center text-uppercase lang" key="titulo">Perguntas Frequentes</h1>
+
+
+        <div class="py-2 text-center">
+            <img class="translate" id="en" src="../images/flag/en.png" >
+            <img class="translate" id="pt" src="../images/flag/pt.png" >
+            <img class="translate" id="fr" src="../images/flag/fr.png" >
+        </div>
+
+
+        <div id="accordion">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                            Como funciona?
+                        </button>
+                    </h5>
+                </div>
+
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                        isto e um repositorio mantido por uma pessoa apenas que vive em lisboa. para ajudar podes actualizar com dados e experiencias. desde ja obrigado!
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Onde posso entrar em contacto?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        podes entrar em contacto a partir desde <a href="">link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Opções de navegação
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        navegar pelo site
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <footer class="footer">
+            <div class="container">
+                <h3 id='ver_mapa' class='slow-anime animated infinite zoomIn'>« Ver MAPA</h3>
+            </div>
+        </footer>
+
+        <script src="../js/jquery-3.3.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+        <script>
+            $('#ver_mapa').click(function (e) {
+                e.preventDefault();
+                $.ajax({
+                    type: "GET",
+                    url: "mobile",
+                    data: {},
+                    success: function (data) {
+                        $('body').html(data);
+                    }
+                });
+
+            });
+
+
+        </script>
+
+    </body>
+</html>

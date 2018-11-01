@@ -1,0 +1,78 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #map {
+    height: 100%;
+    font: 15pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.lorem {
+    font-style: italic;
+    color: #AAA;
+    margin:0px;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: space-around;
+}
+
+
+
+textarea {
+    resize:none;
+}
+
+
+
+.error {
+    text-decoration: underline;
+    font-size:12px;
+    text-transform: uppercase;
+    text-decoration-color: red;
+}
+
+
+table {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+td, th {    
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    margin:10px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    /*border-radius: 50%;*/
+}
+
+
+.modal-dialog,
+.modal-content {
+    /* % of window height */
+    height: 85%;
+}

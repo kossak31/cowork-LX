@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="prefetch stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="prefetch stylesheet" href="assets/css/bootstrap.min.css" >
+        <link rel="prefetch stylesheet" href="assets/css/gmaps-sidebar.min.css" />
+        <link rel="prefetch stylesheet" href="assets/css/desktop.css" />
+
+
+        <link rel="prefetch icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+        <meta name='keywords' content='cowork em lisboa, corworks de lisboa, espaços cowork'>
+        <meta name='description' content='repositorio com informações de espaços cowork na grande lisboa'>
+        <meta name='language' content='PT'>
+        <meta name='robots' content='index, follow'>
+
+        <title>Coworking@LX</title>
+
+    </head>
+
+    <body>
+
+        <div id="sidebar" class="sidebar collapsed">
+
+            <!-- Nav tabs com icons -->
+            <div class="sidebar-tabs">
+                <ul role="tablist">
+                    <li><a href="#home" role="tab"><i class="fa fa-bars"></i></a></li>
+                    <li><a href="#contacto" role="tab"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="#faq" role="tab"><i class="fa fa-question-circle"></i></a></li>
+
+                </ul>
+
+                <!-- Nav inferior -->
+                <ul role="tablist">
+                    <li><a href="#add" role="tab"><i class="fa fa-plus-square"></i></a></li>
+                    <li><a href="#settings" role="tab"><i class="fa fa-gear"></i></a></li>
+                </ul>
+
+            </div>
+
+
+
+            <!-- Tab panes -->
+            <div class="sidebar-content">
+
+                <!-- home -->
+                <div class="sidebar-pane" id="home">
+
+                </div>
+
+
+                <!-- contacto -->
+                <div class="sidebar-pane" id="contacto">
+                    <h1 class="lang sidebar-header" key="contacto_titulo" >Entra em Contacto<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+
+                    <div class=" container ">
+
+                        <div class="row">
+                            <div class="col-12 pt-3 ">
+
+                                <form id="formulario_contacto" method="POST">
+
+                                    <div class="form-group">
+                                        <label class="lang" key="contacto_email" for="email">Indica o teu e-mail:</label>
+                                        <input name="email" type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                                        <small id="emailHelp" key="contacto_antispam" class="lang form-text text-muted">Nós nunca vamos compartilhar seu e-mail com mais ninguém.</small>
+                                    </div>
+
+
+                                    <div class="form-group">
+                                        <label class="lang" key="contacto_mensagem" for="mensagem">Mensagem:</label>
+                                        <textarea name="mensagem" class="form-control" id="mensagem" required></textarea>
+                                    </div>
+
+
+                                    <button id="enviar_mensagem" name="tentativa_contacto" key="contacto_enviar" class="lang float-right btn btn-outline-success btn-block">enviar mensagem</button>
+
+                                </form>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <!-- faq -->
+                <div class="sidebar-pane" id="faq">
+                    <h1 class="lang sidebar-header" key="faq_titulo" >perguntas e respostas<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        Como funciona?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                    isto e um repositorio mantido por uma pessoa apenas que vive em lisboa. para ajudar podes actualizar com dados e experiencias. desde ja obrigado!
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Onde posso entrar em contacto?
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                    podes entrar em contacto a partir desde <a href="javascript:void(0)" onclick="sidebar.open('contacto')">link</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Opções de navegação
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+
+                                    <ul>
+                                        <li>website traduzido nos seguintes idiomas: portugues, ingles e françês</li>
+                                        <li>ver o mapa sem legendas</li>
+                                        <li>legenda para linhas de metro e estações BUS</li>
+                                        <li>legenda para pontos de interesse (parques, restaurantes, escolas)</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <!-- adicionar novo cowork -->
+                <div class="sidebar-pane" id="add">
+                    <h1 class="lang sidebar-header" key="opções">Adicionar novo espaço Cowork<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+
+                    <form id="formulario_adicionar" method="POST">
+
+                        <div class="form-group">
+                            <input name="nome" type="text" class="form-control" id="cowork" placeholder="nome do espaço cowork">
+                        </div>
+
+
+                        <div class="form-group">                          
+                            <input name="website" type="text" class="form-control" id="website" placeholder="endereço do website">
+                        </div>
+
+
+                        <div class="form-group">                          
+                            <input name="endereco_email" type="text" class="form-control" id="telefone" placeholder="email@dominio">
+                        </div>
+
+
+                        <div class="form-group">                          
+                            <input name="telefone" type="text" class="form-control" id="telefone" placeholder="telefone">
+                        </div>
+
+
+
+                        <div class="form-group">
+                            <input name="morada" type="text" class="form-control" id="morada" placeholder="onde fica? indica a morada">
+                        </div>
+
+                        <div class="form-group">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text" id="basic-addon3">€</span>
+                                </div>
+                                <input type="text" class="form-control" id="valor" aria-describedby="basic-addon3" placeholder="Quanto Custa?">
+                            </div>
+
+                        </div>
+
+
+                        <h3>Impressora A4</h3>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                            <input disabled type="text" class="form-control" aria-label="Text input with checkbox" placeholder="paginas">
+                            <input disabled type="text" class="form-control" placeholder="quanto custa">
+                        </div>
+
+
+                        <h3>Impressora A3</h3>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </div>
+                            <input disabled type="text" class="form-control" aria-label="Text input with checkbox">
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label for="">Horario</label>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                <label class="form-check-label" for="inlineRadio1">Aberto 24h</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                <label class="form-check-label" for="inlineRadio2">8h às 22h</label>
+                            </div>
+
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                <label class="form-check-label" for="inlineRadio3">9h às 18h</label>
+                            </div>
+
+
+                        </div>
+
+                        <div class="form-group">
+                            <label for="">Infra-estrutura</label>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">Animais</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" >hot desk/mesa partilhada</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" >salas para reunir</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" >cozinha</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" >cacifo</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" >serviço de correio</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">morada virtual</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">impressora A4</label>
+                            </div>
+
+                            <div class="checkbox">
+                                <label><input type="checkbox" value="">impressora A3</label>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="form-group">
+                            <label for="comment">info adicional:</label>
+                            <textarea class="form-control" rows="5" id="comment" placeholder="a rede wireless é de 200megas, o parque de estacionamento é a pagar"></textarea>
+                        </div> 
+
+
+                        <button type="submit" class="btn btn-danger btn-block">Enviar Pedido</button>
+
+
+                    </form>
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <!-- opçoes -->
+                <div class="sidebar-pane" id="settings">
+                    <h1 class="lang sidebar-header" key="opções">Opções<span class="sidebar-close"><i class="fa fa-caret-left"></i></span></h1>
+
+
+                    <h3>alterar o idioma:</h3>
+
+                    <div class="text-center">
+                        <a class="translate" id="pt" href="#PT"><img src="images/flag/pt.png"></a>
+                        <a class="translate" id="en" href="#EN"><img src="images/flag/en.png"></a>
+                        <a class="translate" id="fr" href="#FR"><img src="images/flag/fr.png"></a>
+                    </div>
+
+
+
+                    <h3 class="mt-2">Vistas do mapa:</h3>
+
+                    <div>
+                        <input type="radio" name="show-hide" id="hide-poi"
+                               class="selector-control" checked="checked">
+                        <label for="hide-poi">Sem Legendas</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" name="show-hide" id="show-poi"
+                               class="selector-control" >
+                        <label for="show-poi">Ver Pontos de Interesse</label>
+                    </div>
+
+                    <div>
+                        <img id="logo_metro" title="pontos de interesse"  src="images/legenda/metro_off.png" style="display:inline;"> Ver Metro
+
+                    </div>
+
+                    <div>
+
+                        <img id="whereiam" title="onde estou?"  src="images/legenda/where.png" style="display:inline;"> Onde Estou
+
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        </div>
+
+
+
+        <div id="map" class="sidebar-map"></div>
+
+
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxdIy7PCGoN_1U4_WgJu8aDhvnsz3C9FE&language=pt"></script>
+
+        <script src="assets/js/jquery-3.3.1.min.js"></script>
+
+        <script src="js/language_file.js"></script>
+        <script src="js/gmaps_desktop.js"></script>
+
+        <script src="js/leitura.js"></script>
+
+        <script src="assets/js/jquery-sidebar.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+        <script>
+
+                                        $("#home").load("pages/introPT.html");
+
+                                 
+
+                                        $('#myModal').modal('close');
+
+                                        var sidebar = $('#sidebar').sidebar();
+                                        sidebar.open('home');
+
+
+                                        $('a[href="#add"]').click(function () {
+                                            $('#cowork').focus();
+                                        });
+
+                                        $('a[href="#contacto"]').click(function () {
+                                            $('#email').focus();
+                                        });
+
+                                        $('#mensagem').keydown(function (e) {
+                                            if (e.which == 13) {
+                                                $("#enviar_mensagem").click();
+                                                return false;
+                                            }
+                                        });
+
+                                        $("#enviar_mensagem").click(function (e) {
+                                            e.preventDefault();
+                                            console.log('a enviar o formulario');
+
+                                            var emailJS = $('#email').val();
+                                            var mensagemJS = $('#mensagem').val();
+
+                                            $.ajax({
+                                                url: "../php/send_message.php",
+                                                type: "POST",
+                                                data: {
+                                                    tentativa_contacto: true,
+                                                    email: emailJS,
+                                                    mensagem: mensagemJS
+                                                },
+                                                success: function () {
+                                                    console.log('mensagem enviada com sucesso');
+                                                    $('#formulario_contacto').closest('form').find("input[type=text], input[type=email], textarea").val("");
+                                                    $('#formulario_contacto').html('a mensagem foi enviada com sucesso');
+                                                },
+                                                error: function () {
+                                                    $('#formulario_contacto').html('a mensagem NÃO foi enviada, existiu um erro');
+                                                }
+                                            });
+                                        });
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,55 @@
+ficheiro json 
+    http://php.barata.pt/templates/like/cowork/coworkLX.json
+
+cowork
+website
+morada
+latitude
+longitude
+condicoes [mesa_dedicada, hot_desk, salas, impressoes[A4, A3] ]
+preco [IVA semIVA]
+horario []
+verificado
+actualizado
+views
+
+botao criado apartir
+    http://css3buttongenerator.com/
+
+
+imagem do marker da google
+    https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png
+
+
+/* THANKS */
+icons:
+    https://www.iconfinder.com
+    https://icons8.com/
+
+menu sidebar:
+    https://stackoverflow.com/questions/35610873/google-maps-with-responsive-sidebar
+
+alterar infoWindow do gmaps
+    http://en.marnoto.com/2014/09/5-formas-de-personalizar-infowindow.html
+
+questao tecnica do link morto nas imagens nos clusters do gmap
+    https://github.com/mikesaidani/marker-clusterer-plus/pull/2
+    https://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclustererplus/images/m
+    https://raw.githubusercontent.com/googlemaps/v3-utility-library/master/markerclustererplus/images/m1.png
+
+/* SITE */
+Last update:2018
+Language:Portuguese
+Doctype:HTML5
+IDE: netbeans
+
+
+about Coworking@LX ?
+tecnologias usadas:
+servidor web nginx com PHP
+versão 3 do API web google maps
+versão 3 do jQuery para agilizar a escrita de javascript e registos JSON
+Interface Gráfica de Utilizador:
+sidebar v2 baseado no bootstrap
+icons: fontawesome e icons8
+popups sweetalert.js

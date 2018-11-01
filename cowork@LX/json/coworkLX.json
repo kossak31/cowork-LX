@@ -1,0 +1,697 @@
+{
+    "coworksLX": [
+        {
+            "cowork": "BETA i",
+            "website": "http://beta-i.pt",
+            "morada": "Avenida Casal Ribeiro 28, 1000-092 Lisboa",
+            "email": "joinus@beta-i.pt",
+            "telefone": 926667633,
+            "lat": 38.732435,
+            "lng": -9.142385,
+            "condicoes": [
+                {
+                    "mesa_dedicada": false,
+                    "hot_desk": true,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": null,
+                    "kitchen": true,
+                    "lockers": true,
+                    "pets": true,
+                    "impressoes": [
+                        {
+                            "A3": true,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 100,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 75,
+                        "impressora_A4": {
+                            "pb": 20,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "8h30-22h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "hotdesk"
+                    },
+                    "cena2": {
+                        "preco": 100,
+                        "impressora_A4": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": 50
+                        },
+                        "horario": "8h30-22h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "mesa dedicada"
+                    },
+                    "cena3": {
+                        "preco": 500,
+                        "impressora_A4": {
+                            "pb": 30,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "8h30-22h00",
+                        "contracto": "6 meses",
+                        "condi\u00e7\u00f5es": "pagando 5 meses, oferecem o 6\u00ba"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "fullTime22",
+                    "ter": "fullTime22",
+                    "qua": "fullTime22",
+                    "qui": "fullTime22",
+                    "sex": "fullTime22",
+                    "sab": "FECHADO",
+                    "dom": "FECHADO"
+                }
+            ],
+            "verificado": true,
+            "actualizado": 1531137757,
+            "views": 50
+        },
+        {
+            "cowork": "IDEIA HUB",
+            "website": "https://www.ideiahub.pt/",
+            "morada": "Av. D. Jo\u00e3o II N\u00ba35 11\u00baA, 1990-083 Lisboa",
+            "email": "info@ideiahub.pt",
+            "telefone": 210126565,
+            "lat": 38.769696,
+            "lng": -9.097932,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": true,
+                    "salas": true,
+                    "mail_service": false,
+                    "virtual_address": false,
+                    "kitchen": true,
+                    "lockers": true,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 120,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 120,
+                        "impressora_A4": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "9h00-18h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "lounge ou hot desk"
+                    }
+                },
+                {
+                    "cena2": {
+                        "preco": 200,
+                        "impressora_A4": {
+                            "pb": 100,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "24h",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "sala reuni\u00f5es 3 lugares. apenas 8h/m\u00eas"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "dayWork",
+                    "ter": "dayWork",
+                    "qua": "dayWork",
+                    "qui": "dayWork",
+                    "sex": "dayWork",
+                    "sab": "FECHADO",
+                    "dom": "FECHADO"
+                }
+            ],
+            "verificado": false,
+            "actualizado": 1531137757,
+            "views": 7
+        },
+        {
+            "cowork": "LIBERDADE 229",
+            "website": "https://liberdade229.com",
+            "morada": "Avenida da Liberdade 229, 1250-142 Lisboa",
+            "email": "info@liberdade229.com",
+            "telefone": 914734118,
+            "lat": 38.7228176,
+            "lng": -9.1486382000001,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": false,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": false,
+                    "kitchen": true,
+                    "lockers": true,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 180,
+                    "IVA": 221.4
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 180,
+                        "impressora_A4": {
+                            "pb": true,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "24h",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "mesa dedicada, sala reuni\u00f5es"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "fullDay",
+                    "ter": "fullDay",
+                    "qua": "fullDay",
+                    "qui": "fullDay",
+                    "sex": "fullDay",
+                    "sab": "fullDay",
+                    "dom": "fullDay"
+                }
+            ],
+            "verificado": true,
+            "actualizado": 1531137757,
+            "views": 12
+        },
+        {
+            "cowork": "SITIO",
+            "website": "https://sitio.poligono.org",
+            "morada": "Rua Jo\u00e3o Saraiva 34, 1700-051 Lisboa",
+            "email": "geral@ositio.org",
+            "telefone": 218400256,
+            "lat": 38.757528,
+            "lng": -9.143166,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": false,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": false,
+                    "kitchen": true,
+                    "lockers": false,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 120,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 180,
+                        "impressora_A4": {
+                            "pb": true,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "8h00-20h00",
+                        "contracto": "3 m\u00eas",
+                        "condi\u00e7\u00f5es": "mesa dedicada, sala reuni\u00f5es"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "dayWork19",
+                    "ter": "dayWork19",
+                    "qua": "dayWork19",
+                    "qui": "dayWork19",
+                    "sex": "dayWork19",
+                    "sab": "FECHADO",
+                    "dom": "FECHADO"
+                }
+            ],
+            "verificado": true,
+            "actualizado": 1531137757,
+            "views": 22
+        },
+        {
+            "cowork": "AVILA SPACES",
+            "website": "https://avilaspaces.com/pt/",
+            "morada": "Av. da Rep\u00fablica, n\u00ba6, 1\u00ba Esq.",
+            "email": "info@avilaspaces.com",
+            "telefone": 213303720,
+            "lat": 38.7407531,
+            "lng": -9.1466571,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": false,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": true,
+                    "kitchen": true,
+                    "lockers": true,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 85,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 85,
+                        "impressora_A4": {
+                            "pb": true,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "9h00-18h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "hot desk"
+                    }
+                },
+                {
+                    "cena2": {
+                        "preco": 160,
+                        "impressora_A4": {
+                            "pb": true,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "9h00-18h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "mesa dedicada"
+                    }
+                },
+                {
+                    "cena3": {
+                        "preco": 250,
+                        "impressora_A4": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "24h",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "mesa dedicada, sala de reunioes 8h/m\u00eas"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "fullTime20",
+                    "ter": "fullTime20",
+                    "qua": "fullTime20",
+                    "qui": "fullTime20",
+                    "sex": "fullTime20",
+                    "sab": "FECHADO",
+                    "dom": "FECHADO"
+                }
+            ],
+            "verificado": true,
+            "actualizado": 1531137757,
+            "views": 14
+        },
+        {
+            "cowork": "LEAP",
+            "website": "https://www.leap.pt",
+            "morada": "Espa\u00e7o amoreiras, Rua Dom Jo\u00e3o V 24, 1250-091 Lisboa",
+            "email": "info@leap.pt",
+            "telefone": 919048643,
+            "lat": 38.720683,
+            "lng": -9.1599160000001,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": false,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": true,
+                    "kitchen": true,
+                    "lockers": false,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 140,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": false,
+                        "impressora_A4": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "9h00-18h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "grupo de coworks sao 4"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "fullDay",
+                    "ter": "fullDay",
+                    "qua": "fullDay",
+                    "qui": "fullDay",
+                    "sex": "fullDay",
+                    "sab": "fullDay",
+                    "dom": "fullDay"
+                }
+            ],
+            "verificado": false,
+            "actualizado": 1531137757,
+            "views": 10
+        },
+        {
+            "cowork": "antigo BASEMENTORING",
+            "website": "https://basementoring.business.site",
+            "morada": "Rua Filipe Folque 40 1050-047 Lisboa",
+            "email": "info@bworkingspaces.com",
+            "telefone": 962829050,
+            "lat": 38.7344401,
+            "lng": -9.1480048999999,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": true,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": true,
+                    "kitchen": true,
+                    "lockers": false,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 110,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 110,
+                        "impressora_A4": {
+                            "pb": 60,
+                            "cores": 20
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "9h00-19h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "9h00-19h00, hot desk, sala reuni\u00f5es 2h/m\u00eas"
+                    }
+                },
+                {
+                    "cena2": {
+                        "preco": 90,
+                        "impressora_A4": {
+                            "pb": 60,
+                            "cores": 20
+                        },
+                        "impressora_A3": {
+                            "pb": 60,
+                            "cores": 20
+                        },
+                        "horario": "9h00-19h00",
+                        "contracto": "3 m\u00eas",
+                        "condi\u00e7\u00f5es": "9h00-19h00, hot desk, sala reuni\u00f5es 2h/m\u00eas, 60 impress\u00f5es pb e 20 cores"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "fullDay",
+                    "ter": "fullDay",
+                    "qua": "fullDay",
+                    "qui": "fullDay",
+                    "sex": "fullDay",
+                    "sab": "fullDay",
+                    "dom": "fullDay"
+                }
+            ],
+            "verificado": true,
+            "actualizado": 1531137757,
+            "views": 14
+        },
+        {
+            "cowork": "LINNK",
+            "website": "https://www.linnk.us/pt",
+            "morada": "R. Braamcamp 84, 1250-052 Lisboa",
+            "telefone": 211306718,
+            "email": "info@linnk.us",
+            "lat": 38.7215937,
+            "lng": -9.1525152,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": false,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": true,
+                    "kitchen": true,
+                    "lockers": false,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 160,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 160,
+                        "impressora_A4": {
+                            "pb": true,
+                            "cores": false
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "24h",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "24h por confirmar, secret\u00e1ria dedicada, sala de reuni\u00f5es, impress\u00f5es A4."
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "meninos",
+                    "ter": "meninos",
+                    "qua": "meninos",
+                    "qui": "meninos",
+                    "sex": "meninos",
+                    "sab": "FECHADO",
+                    "dom": "FECHADO"
+                }
+            ],
+            "verificado": true,
+            "actualizado": 1531137757,
+            "views": 18
+        },
+        {
+            "cowork": "Space4U FUNDA\u00c7\u00c3O DA JUVENTUDE",
+            "website": "http://www.fjuventude.pt/pt/menu/48/space4u.aspx",
+            "morada": "Avenida J\u00falio Dinis, n.\u00ba 23 1050-053 Lisboa",
+            "email": "lisboa@fjuventude.pt",
+            "telefone": 217983400,
+            "lat": 38.7421032,
+            "lng": -9.1480174,
+            "condicoes": [
+                {
+                    "mesa_dedicada": true,
+                    "hot_desk": false,
+                    "salas": true,
+                    "mail_service": true,
+                    "virtual_address": true,
+                    "kitchen": true,
+                    "lockers": true,
+                    "pets": false,
+                    "impressoes": [
+                        {
+                            "A3": false,
+                            "A4": true
+                        }
+                    ]
+                }
+            ],
+            "preco": [
+                {
+                    "semIVA": 90,
+                    "IVA": false
+                }
+            ],
+            "limite": [
+                {
+                    "cena1": {
+                        "preco": 110,
+                        "impressora_A4": {
+                            "pb": 60,
+                            "cores": 20
+                        },
+                        "impressora_A3": {
+                            "pb": false,
+                            "cores": false
+                        },
+                        "horario": "9h00-19h00",
+                        "contracto": "1 m\u00eas",
+                        "condi\u00e7\u00f5es": "9h00-19h00, hot desk, sala reuni\u00f5es 2h/m\u00eas, 60 impress\u00f5es pb e 20 cores"
+                    }
+                },
+                {
+                    "cena2": {
+                        "preco": 90,
+                        "impressora_A4": {
+                            "pb": 60,
+                            "cores": 20
+                        },
+                        "impressora_A3": {
+                            "pb": 60,
+                            "cores": 20
+                        },
+                        "horario": "9h00-19h00",
+                        "contracto": "3 m\u00eas",
+                        "condi\u00e7\u00f5es": "9h00-19h00, hot desk, sala reuni\u00f5es 2h/m\u00eas, 60 impress\u00f5es pb e 20 cores"
+                    }
+                }
+            ],
+            "horario": [
+                {
+                    "seg": "fullDay",
+                    "ter": "fullDay",
+                    "qua": "fullDay",
+                    "qui": "fullDay",
+                    "sex": "fullDay",
+                    "sab": "FECHADO",
+                    "dom": "FECHADO"
+                }
+            ],
+            "verificado": true,
+            "actualizado": 1531137757,
+            "views": 8
+        }
+    ]
+}

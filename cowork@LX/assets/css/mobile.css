@@ -1,0 +1,78 @@
+.error {
+    text-decoration: underline;
+    font-size:20px;
+    text-transform: uppercase;
+    text-decoration-color: red;
+}
+
+h2, h3{
+    line-height:0px;
+    text-transform: uppercase;
+}
+.wrapper {
+    display: flex;  
+    flex-flow: row wrap;
+    font-weight: bold;
+}
+
+.wrapper > * {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+
+.header {
+    background: tomato;
+}
+
+.footer {
+    background: yellowgreen;
+    color:white;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: auto;
+
+}
+
+
+.chip {
+    display: inline-block;
+    padding: 0 25px;
+    margin:10px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+}
+
+.chip img {
+    float: left;
+    margin: 0 10px 0 -25px;
+    height: 50px;
+    width: 50px;
+    /*border-radius: 50%;*/
+
+}
+
+#horario_mobile {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+table, th, td {
+    margin-top: 20px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+
