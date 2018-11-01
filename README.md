@@ -1,8 +1,8 @@
 # cowork-LX
-espaços cowork em lisboa
+este projecto identifica espaços cowork em lisboa no google maps. data apartir de ficheiros json
 
 ## configuração para nginx
-
+/etc/nginx/sites-enabled
 
 ## gerador de google maps
 gmaps_mobile.js
